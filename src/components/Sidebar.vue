@@ -37,11 +37,11 @@
             <span class="flex-1 whitespace-nowra">Jadwal Acara</span>
           </router-link>
         </li>
-        
+
         <li class="md:-mx-0.5">
-          <a href="#" class="flex items-center p-4 text-white px-20 bg-transparent hover:bg-white hover:text-black group md:text-2xl border-2 border-white border-b-0">
-            <span class="flex-1 whitespace-nowrap">Inventaris Barang</span>
-          </a>
+          <router-link to="/inventarisbarang" class="nav-link flex items-center p-4 text-white px-20 bg-transparent hover:bg-white hover:text-black group md:text-2xl border-2 border-white border-b-0">
+            <span class="flex-1 whitespace-nowra">Inventaris Barang</span>
+          </router-link>
         </li>
         <li class="md:-mx-0.5">
           <a href="#" class="flex items-center p-4 text-white px-20 bg-transparent hover:bg-white hover:text-black group md:text-2xl border-2 border-white">

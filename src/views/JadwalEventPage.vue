@@ -5,7 +5,7 @@
       <div class="md:p-4 rounded-lg">
         <div class="h-auto mb-8 rounded md:p-4">
           <div class="md:flex justify-between items-center">
-            <p class="my-7 font-semibold text-3xl text-black text-center md:ml-44 flex-grow">Jadwal Event</p>
+            <p class="my-7 font-semibold text-3xl text-black text-start flex-grow">Jadwal Event</p>
             <div class="relative mx-auto md:mb-0 mb-8 text-gray-600 flex items-center">
               <button type="submit" class="absolute right-full left-3.5 top-0.5 mt-2 mr-4">
                 <svg

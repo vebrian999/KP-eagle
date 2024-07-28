@@ -7,6 +7,9 @@ module.exports = {
         "gradient-1": "#4C62EF",
         "gradient-2": "#21325F",
         "primary": "#2B3D83",
+        "button1": "#62DE4E",
+        "button2": "#22E17A",
+
       },
     },
   },

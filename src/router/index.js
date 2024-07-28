@@ -1,16 +1,29 @@
 import { createRouter, createWebHistory } from "vue-router";
 import AbsensiPage from "../views/AbsensiPage.vue";
 import JadwalEventPage from "../views/JadwalEventPage.vue";
+import InventarisBarangPage from "../views/InventarisBarangPage.vue";
+import PengajuanPeminjamanPage from "../views/PengajuanPeminjamanPage.vue";
 const routes = [
   {
     path: "/",
     name: "absensi",
     component: AbsensiPage,
   },
-    {
-    path: '/jadwalevent',
-    name: 'jadwalevent',
-    component: JadwalEventPage
+  {
+    path: "/jadwalevent",
+    name: "jadwalevent",
+    component: JadwalEventPage,
+  },
+
+  {
+    path: "/inventarisbarang",
+    name: "inventarisbarang",
+    component: InventarisBarangPage,
+  },
+  {
+    path: "/pengajuanpeminjaman", // Tambahkan rute ini
+    name: "pengajuanpeminjaman",
+    component: PengajuanPeminjamanPage,
   },
   {
     path: "/about",
